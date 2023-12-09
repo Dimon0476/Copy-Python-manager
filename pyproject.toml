@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "hexlet-code"
+version = "0.1.0"
+description = "task_manager"
+authors = ["Dimon0476 <dmitry.fodorov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "task_manager"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.2"
+python-dotenv = "^1.0.0"
+gunicorn = "^20.1.0"
+dj-database-url = "^2.0.0"
+django-bootstrap4 = "^23.1"
+pytest = "^7.4.0"
+psycopg2-binary = "^2.9.6"
+loguru = "^0.7.0"
+django-filter = "^23.2"
+rollbar = "^0.16.3"
+urllib3 = "1.26.16"
+coverage = "^7.2.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
