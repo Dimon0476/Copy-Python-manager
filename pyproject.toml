@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hexlet-code"
+name = "Python_task_manager"
 version = "0.1.0"
 description = "task_manager"
 authors = ["Dimon0476 <dmitry.fodorov@gmail.com>"]
