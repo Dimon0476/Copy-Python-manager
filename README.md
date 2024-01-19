@@ -1,6 +1,5 @@
 ## Task Manager
 ___
-### Hexlet tests and linter status:
 
 ### Project description
 Task Manager is a web application built on the Django framework with basic functionality, including all CRUD operations and task management features:
